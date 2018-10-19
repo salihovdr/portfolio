@@ -25,5 +25,6 @@
   "devDependencies": {
     "eslint": "^5.7.0",
     "eslint-plugin-react": "^7.11.1"
-  }
+  },
+  "homepage": "https://dsal.me"
 }
