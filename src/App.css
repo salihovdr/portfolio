@@ -78,9 +78,9 @@ a.anchor {
   transition: background .15s cubic-bezier(.33,.66,.66,1);
 }
 
-a.anchor--highlighted:hover{
+/* a.anchor--highlighted:hover{
   background-color: #b2ebf2;
-}
+} */
 
 #projectList img {
   border: 1px solid #dfe6e9;
@@ -141,6 +141,16 @@ div.col-8.description {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: start;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
 }
 
 @media screen and (max-width: 450px) {

@@ -14,7 +14,7 @@ class App extends Component {
 		return (
 			<div className="App container">
 				<main className="App-main row">
-					<section className='intro'>
+					<section className='intro clear'>
 						<Intro />
 					</section>
 					<section className='skills'>
